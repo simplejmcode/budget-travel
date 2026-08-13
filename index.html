@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="icon" href="images/logo.png" />
+      <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=League+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+         rel="stylesheet" />
+      <link rel="stylesheet" href="index.css" />
+      <title>Travel Budget Site</title>
+   </head>
+   <body>
+      <div class="page-wrapper">
+         <!-- HEADER -->
+         <header id="header">
+            <nav class="nav-logo">
+               <a href="#home" class="logo">
+                  <img src="images/logo.png" alt="logo" width="60px" height="60px" />
+                  <h2>Travel BudGeddy</h2>
+               </a>
+            </nav>
+
+            <nav class="nav-link">
+               <a href="#home" class="nav-list">Home</a>
+               <a href="#About" class="nav-list">About</a>
+               <div class="dropdown">
+                  <div class="trigger">
+                     <span>
+                        <a href="#Destination" class="nav-list">Destinations</a>
+                        <em class="arrow"><i class="bx bxs-chevron-down"></i></em>
+                     </span>
+                     <ul class="locations">
+                        <li><a href="#Destination">Philippines</a></li>
+                        <li><a href="#Luzon">Luzon</a></li>
+                        <li><a href="#Visayas">Visayas</a></li>
+                        <li><a href="#Mindanao">Mindanao</a></li>
+                     </ul>
+                  </div>
+               </div>
+               <a href="#Tour" class="nav-list">Tours</a>
+               <a href="#Booking" class="nav-list">Booking</a>
+               <a href="#Contact" class="nav-list">Contact</a>
+            </nav>
+
+            <nav class="nav-button">
+               <form action="index.html" method="GET">
+                  <div class="form-input">
+                     <input
+                        type="search"
+                        name="query"
+                        placeholder="Search destination, loc..."
+                        required />
+                     <button type="submit" class="search-btn"><i class="bx bx-search"></i></button>
+                  </div>
+               </form>
+
+               <!-- <div class="registerdesign">
+                  <a href="#Profile" id="btnProfile">
+                     <button>Profile</button>
+                  </a>
+               </div> -->
+
+               <a href="register.html"><button class="btnRegister-popup">Register</button></a>
+            </nav>
+         </header>
+
+         <!-- MAIN CONTENT -->
+         <main>
+            <section id="home" class="tab-content">
+               <div class="home-content">
+                  <div class="cloud-animation">
+                     <img src="images/cloud1.png" style="--i: 3" class="img3" />
+                     <img src="images/cloud2.png" style="--i: 3" class="img3" />
+                     <img src="images/cloud3.png" style="--i: 3" class="img3" />
+                     <img src="images/cloud4.png" style="--i: 4" class="img4" />
+                     <img src="images/cloud5.png" style="--i: 5" class="img5" />
+                  </div>
+
+                  <div class="home">
+                     <h1>Discover the Philippines on Any Budget</h1>
+                     <h3>Plan smarter, travel further.</h3>
+                     <p>
+                        From stunning beaches to vibrant cities, get detailed travel costs,
+                        affordable accommodations, and local transport options all in one place.
+                        Start planning your perfect trip with accurate expense estimates, multi-day
+                        stay options, and easy bookings.
+                     </p>
+
+                     <nav class="nav-button">
+                        <div class="registerdesign">
+                           <button id="exploreNow">Explore now!</button>
+                        </div>
+                     </nav>
+                  </div>
+
+                  <img src="images/airplane.png" alt="" id="home-airplane" />
+               </div>
+            </section>
+         </main>
+      </div>
+   </body>
+</html>
