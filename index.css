@@ -24,7 +24,7 @@ body {
    /* min-height: 100vh; */
 }
 
-#home {
+#Home {
    flex: 1;
 }
 
@@ -381,7 +381,7 @@ a {
    }
 }
 
-/* CLOUD-ANIMATION HOME */
+/* CLOUD-ANIMATION Home */
 .cloud-animation {
    position: absolute;
    top: 0;
@@ -426,13 +426,13 @@ a {
    }
 }
 
-section#home {
-   .home-content {
+section#Home {
+   .Home-content {
       min-height: 100vh;
       background: url(images/bgTravel.png) center/cover no-repeat;
 
       /* IMAGE-AIRPLANEPH DESIGN */
-      #home-airplane {
+      #Home-airplane {
          position: absolute;
          top: 5.6rem;
          left: 55rem;
@@ -445,7 +445,7 @@ section#home {
       }
       /* IMAGE-AIRPLANEPH DESIGN */
 
-      .home {
+      .Home {
          width: 100%;
          height: 100vh;
          padding: 10rem 80px 2.5rem;
@@ -962,8 +962,8 @@ section#home {
    }
 }
 
-section#about {
-   .about-header {
+section#About {
+   .About-header {
       background: url(images/bgTravel\ -\ Copy.png) center/cover no-repeat;
       min-height: 25vh;
       position: relative;
@@ -978,12 +978,12 @@ section#about {
       }
    }
 
-   .about-content {
+   .About-content {
       min-height: 75vh;
       background-color: var(--light);
 
-      .container-about {
-         .header-about {
+      .container-About {
+         .header-About {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -1004,7 +1004,7 @@ section#about {
             }
          }
 
-         .content-about {
+         .content-About {
             display: flex;
             flex-direction: column;
             max-width: 1450px;
@@ -1013,7 +1013,7 @@ section#about {
             top: 4rem;
          }
 
-         .content-about::before {
+         .content-About::before {
             content: "";
             position: absolute;
             width: 5px;
@@ -1074,13 +1074,13 @@ section#about {
       }
    }
 
-   .about-othercontent {
+   .About-othercontent {
       min-height: 50vh;
       background: var(--grey);
       display: flex;
       flex-direction: column;
 
-      .container-aboutOtherContent {
+      .container-AboutOtherContent {
          width: 50rem;
 
          .missionImg {
@@ -1090,7 +1090,7 @@ section#about {
             height: 22.9rem;
          }
 
-         .header-about {
+         .header-About {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -1112,7 +1112,7 @@ section#about {
             }
          }
 
-         .content-about {
+         .content-About {
             display: flex;
             flex-direction: column;
             margin: auto;
@@ -1129,7 +1129,7 @@ section#about {
       }
    }
 
-   .about-whyChoose {
+   .About-whyChoose {
       min-height: 50vh;
       background: var(--grey);
       display: flex;
@@ -1148,7 +1148,7 @@ section#about {
             bottom: -10.2rem;
          }
 
-         .header-about {
+         .header-About {
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -1170,7 +1170,7 @@ section#about {
             }
          }
 
-         .content-about {
+         .content-About {
             display: flex;
             flex-direction: column;
             margin: auto;
@@ -1191,7 +1191,7 @@ section#about {
       min-height: 50vh;
       position: relative;
 
-      .header-about {
+      .header-About {
          display: flex;
          flex-direction: column;
          align-items: center;
@@ -1211,7 +1211,7 @@ section#about {
          }
       }
 
-      .content-about {
+      .content-About {
          display: flex;
          flex-direction: column;
          max-width: 70rem;
